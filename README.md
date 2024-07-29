@@ -8,9 +8,11 @@
 
 - public 폴더
 - src 폴더
-  - components => 개별 컴포넌트
-  - pages => 페이지 컴포넌트
-  - styles => 스타일링 파일
+  - components ➡ 개별 컴포넌트
+  - pages ➡ 페이지 컴포넌트
+  - styles ➡ 스타일링 파일
+ 
+- vite-react-scaffolding ➡ 제작한 vite-react 템플릿을 degit 명령으로 프로젝트 스캐폴딩
 
 <br/>
 
