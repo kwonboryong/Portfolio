@@ -50,18 +50,18 @@
 
 <br/>
 
-**해결 방법 1**
+**해결 방법 1** <br/>
 피어 종속성을 무시하고 설치한다. <br/>
 ```pnpm add eslint-plugin-react-hooks --legacy-peer-deps```
 
 <br/>
 
-**해결 방법 2**
+**해결 방법 2** <br/>
 eslint-plugin-react-hooks 패키지 관리자가 eslint 종속성 버전을 9까지 포함할 때까지 기다린다.
 
 <br/>
 
-**해결 방법 3**
+**해결 방법 3** <br/>
 eslint 패키지 9버전 뿐만 아니라, 8버전도 설치한다. (권장하지 않음)
 
 <br/><br/>
