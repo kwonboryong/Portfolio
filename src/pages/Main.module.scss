@@ -1,0 +1,18 @@
+.container {
+  user-select: none;
+  // height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .box {
+    margin-top: 3%;
+    // margin-left: 8%;
+    background: linear-gradient(135deg, #FFBDEC 0%, #FFB3D1 50%, #FFFFFF 100%);
+
+    width: 1200px;
+    height: 500px;
+    border: 1px solid black;
+  }
+}

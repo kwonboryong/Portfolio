@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 80px;
+  padding: 0 30px;
+
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+
+  .leftbox {
+    display: flex;
+    gap: 30px;
+  }
+
+  .rightbox {
+    display: flex;
+    gap: 30px;
+  }
+}

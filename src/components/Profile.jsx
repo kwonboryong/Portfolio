@@ -1,15 +1,14 @@
-import p from './../../public/assets/profile.webp';
-import s from './profile.module.scss'; 
+import s from "./Profile.module.scss";
 
 function Profile() {
   return (
-    <>
+    <div className={s.container}>
       <img
-      className={s.profile}
-        src={p}
+        className={s.profile}
+        src="/assets/profile.webp"
         alt="개발자 권보령 프로필 사진"
       />
-    </>
+    </div>
   );
 }
 
