@@ -6,13 +6,12 @@
   justify-content: center;
   align-items: center;
 
-  .box {
+  .a {
     margin-top: -130px;
-    background-color: #D2DEEA;
-    // background: linear-gradient(135deg, #FFBDEC 0%, #FFB3D1 50%, #FFFFFF 100%);
+    display: flex;
+    background-color: #ebf5fe;
 
-    // width: 1200px;
-    width: 80%;
+    width: 900px;
     height: 500px;
     border: 1px solid black;
   }
