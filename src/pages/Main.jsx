@@ -9,13 +9,10 @@ function Main() {
       <div>
         <Header />
         <div className={s.container}>
-          {/* <div className={s.box}> */}
-            <div className={s.a}>
-
+          <div className={s.box}>
             <Profile />
             <Introduce />
-            </div>
-          {/* </div> */}
+          </div>
         </div>
       </div>
     </>
