@@ -15,10 +15,18 @@
   gap: 40px;
 
   a {
+    display: flex;
     text-decoration: none;
     cursor: pointer;
-    color: black;
+
     font-size: 19px;
     font-weight: 600;
+    color: black;
+
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 3px;
+    }
   }
 }

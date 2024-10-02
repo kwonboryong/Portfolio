@@ -12,6 +12,7 @@ function Header() {
         whileTap={{ scale: 0.9 }}
         transition={{ type: "spring", stiffness: 400, damping: 10 }}
       >
+        <img src="/assets/github.png" alt="github 아이콘" />
         Github
       </motion.a>
       <motion.a
@@ -22,6 +23,7 @@ function Header() {
         whileTap={{ scale: 0.9 }}
         transition={{ type: "spring", stiffness: 400, damping: 10 }}
       >
+        <img src="/assets/tistory.webp" alt="티스토리 아이콘" />
         Tistory
       </motion.a>
     </div>
