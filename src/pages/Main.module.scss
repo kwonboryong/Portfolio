@@ -3,8 +3,16 @@
   height: 100vh;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .profile {
+    background: url("/public/assets/profile.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 950px;
+    height: 760px;
+  }
 
   .box {
     margin-top: -150px;

@@ -3,11 +3,11 @@ import s from "./Profile.module.scss";
 function Profile() {
   return (
     <div className={s.container}>
-      <img
+      {/* <img
         className={s.profile}
-        src="/assets/profileRemove.webp"
+        src="/assets/profile.jpg"
         alt="개발자 권보령 프로필 사진"
-      />
+      /> */}
     </div>
   );
 }

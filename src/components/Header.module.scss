@@ -1,27 +1,24 @@
 .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  height: 80px;
-  padding: 0 30px;
+  position: fixed;
+  top: 0;
+  right: 0;
 
-  
+  width: 200px;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 0 50px;
+  gap: 40px;
+
   a {
     text-decoration: none;
     cursor: pointer;
     color: black;
-
     font-size: 19px;
-  }
-
-  .leftbox {
-    display: flex;
-    gap: 30px;
-  }
-
-  .rightbox {
-    display: flex;
-    gap: 30px;
+    font-weight: 600;
   }
 }
