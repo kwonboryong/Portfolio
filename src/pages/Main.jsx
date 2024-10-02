@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Profile from "@/components/Profile";
 import Introduce from "@/components/Introduce";
+import Card from "@/components/Card";
 import s from "./Main.module.scss";
 
 function Main() {

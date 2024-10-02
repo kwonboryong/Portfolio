@@ -1,4 +1,5 @@
 import s from "./Introduce.module.scss";
+import { MdOutlineAttachEmail } from "react-icons/md";
 
 function Introduce() {
   return (
@@ -10,7 +11,7 @@ function Introduce() {
       </div>
       <div className={s.description}>
         <p>생년월일 &nbsp; &nbsp; 2000.01.31</p>
-        <p>Email &nbsp; &nbsp; &nbsp; &nbsp; kwonboryong@naver.com</p>
+        <p> <MdOutlineAttachEmail /> Email &nbsp; &nbsp; &nbsp; &nbsp; kwonboryong@naver.com</p>
         <p>소속 &nbsp; &nbsp; 수정</p>
         <p>야야 &nbsp; &nbsp; 수정정</p>
       </div>
