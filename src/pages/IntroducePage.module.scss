@@ -1,4 +1,15 @@
 .container {
   height: 100vh;
   // background-color: yellow;
+
+  .text {
+    // background-color: red;
+    margin-top: 150px;
+    text-align: center;
+
+    p {
+      font-size: 30px;
+      margin: 0;
+    }
+  }
 }

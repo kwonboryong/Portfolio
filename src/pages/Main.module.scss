@@ -1,27 +1,37 @@
 .container {
   user-select: none;
   height: 100vh;
-
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 
   .profile {
-    background: url("/public/assets/profile.jpg");
+    background: url("/assets/profile.jpg");
     background-position: center;
     background-size: cover;
-    width: 950px;
-    height: 760px;
+    width: 1000px;
+    height: 850px;
+    position: relative; 
+
+    img.star {
+      position: absolute;
+      width: 90px; 
+      height: auto; 
+      animation: shine infinite alternate; 
+      animation: shine infinite alternate;
+    }
   }
 
-  .box {
-    margin-top: -150px;
-    display: flex;
-    background-color: #ebf5fe;
+}
 
-    width: 900px;
-    height: 500px;
-    border: 0.7px solid rgba(219, 219, 219, 0.161);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+@keyframes shine {
+  0% {
+    opacity: 0.5; // 시작 시 투명도
+    transform: scale(1); // 시작 크기
+  }
+  100% {
+    opacity: 1; // 끝에서 투명도
+    transform: scale(1.2); // 커지기
   }
 }

@@ -15,7 +15,12 @@ function IntroducePage() {
     >
       <div>
         <div className={s.container}>
-          <h1>권보려잉ㅂ니다</h1>
+          <div className={s.text}>
+            <p>끊임없이 성장하는 개발자</p>
+            <p>
+              <strong>권보령</strong>입니다.
+            </p>
+          </div>
         </div>
       </div>
     </motion.div>
