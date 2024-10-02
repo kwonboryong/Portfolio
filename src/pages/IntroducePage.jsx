@@ -14,7 +14,9 @@ function IntroducePage() {
       }}
     >
       <div>
-        <div className={s.container}>dkdkdk</div>
+        <div className={s.container}>
+          <h1>권보려잉ㅂ니다</h1>
+        </div>
       </div>
     </motion.div>
   );
