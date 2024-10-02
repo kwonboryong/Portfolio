@@ -1,7 +1,7 @@
-import s from "./IntroducePage.module.scss";
+import s from "./ProjectsPage.module.scss";
 import { motion } from "framer-motion";
 
-function IntroducePage() {
+function ProjectsPage() {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -20,4 +20,4 @@ function IntroducePage() {
   );
 }
 
-export default IntroducePage;
+export default ProjectsPage;
