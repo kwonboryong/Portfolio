@@ -10,7 +10,7 @@
     background-position: center;
     background-size: cover;
     width: 1000px;
-    height: 850px;
+    height: 830px;
     position: relative;
 
     img.star {
@@ -30,5 +30,18 @@
   100% {
     opacity: 1; // 끝에서 투명도
     transform: scale(1.2); // 커지기
+  }
+}
+
+.bounceArrow {
+  animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-13px);
   }
 }

@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Introduce from "@/components/Introduce";
 import s from "./Main.module.scss";
+import { IoIosArrowDown } from "react-icons/io"; // 아이콘 임포트
 
 function Main() {
   const stars = [
@@ -36,6 +37,26 @@ function Main() {
             })}
           </div>
           <Introduce />
+        </div>
+
+        <div
+          className={s.bounceArrow}
+          style={{
+            position: "absolute",
+            bottom: "20px",
+            left: "50%",
+            transform: "translateX(-50%)",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <IoIosArrowDown size={50} color="#fff" className={s.bounce} />
+          <IoIosArrowDown
+            size={50}
+            color="#fff"
+            style={{ marginTop: "-28px", marginBottom: "15px" }}
+          />
         </div>
       </div>
     </>
