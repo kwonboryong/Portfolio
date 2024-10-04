@@ -26,7 +26,6 @@ function SkillsPage() {
           ease: "easeInOut",
           duration: 2,
           y: { duration: 1 },
-          delay: 1.2,
         }}
       >
         <div className={s.description}>
