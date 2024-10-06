@@ -1,6 +1,23 @@
 .container {
   height: 100vh;
-  margin-top: -25px;
-  
+  margin-top: -33px;
+
   background-color: white;
+
+  .text {
+    margin-bottom: 70px;
+    padding-top: 130px;
+
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+.SwiperSlide {
+  border: 1px solid red;
+
+  img {
+    width: 400px;
+    height: 300px;
+  }
 }
