@@ -1,3 +1,4 @@
+import SkillCard from "@/components/SkillCard";
 import s from "./SkillsPage.module.scss";
 import { motion } from "framer-motion";
 
@@ -30,89 +31,48 @@ function SkillsPage() {
       >
         <div className={s.description}>
           <div className={s.topBox}>
-            <div className={s.skill}>
-              <div className={s.box}>
-                <img
-                  src="https://example.develofolio.com/logos/html-5.svg"
-                  alt="HTML 아이콘"
-                />
-                <img
-                  src="https://example.develofolio.com/logos/css-3.svg"
-                  alt="CSS 아이콘"
-                />
-              </div>
-              <strong>HTML & CSS</strong>
-              <div className={s.smallText}>
-                <p>적당한 수준은 됩니다.</p>
-                <p>적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다.</p>
-              </div>
-            </div>
-
-            <div className={s.skill}>
-              <div className={s.box}>
-                <img
-                  src="https://example.develofolio.com/logos/javascript.svg"
-                  alt="JavaScript 아이콘"
-                />
-                <img
-                  src="https://example.develofolio.com/logos/typescript-icon.svg"
-                  alt="TypeScript 아이콘"
-                />
-              </div>
-              <strong>JavaScript & TypeScript</strong>
-              <div className={s.smallText}>
-                <p>적당한 수준은 됩니다.</p>
-                <p>적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다.</p>
-              </div>
-            </div>
-
-            <div className={s.skill}>
-              <img
-                src="https://example.develofolio.com/logos/react.svg"
-                alt="React 아이콘"
-              />
-              <strong>React</strong>
-              <div className={s.smallText}>
-                <p>적당한 수준은 됩니다.</p>
-                <p>적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다.</p>
-              </div>
-            </div>
-            <div className={s.skill}>
-              <img
-                src="https://example.develofolio.com/logos/nextjs-icon.svg"
-                alt="Next.js 아이콘"
-              />
-              <strong>Next.js</strong>
-              <div className={s.smallText}>
-                <p>적당한 수준은 됩니다.</p>
-                <p>적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다.</p>
-              </div>
-            </div>
+            <SkillCard
+              src1="https://example.develofolio.com/logos/html-5.svg"
+              src2="https://example.develofolio.com/logos/css-3.svg"
+              title="HTML & CSS"
+              subTitle="적당한 수준은 됩니다."
+              description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
+            />
+            <SkillCard
+              src1="https://example.develofolio.com/logos/javascript.svg"
+              src2="https://example.develofolio.com/logos/typescript-icon.svg"
+              title="JavaScript & TypeScript"
+              subTitle="적당한 수준은 됩니다."
+              description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
+            />
+            <SkillCard
+              src1="https://example.develofolio.com/logos/react.svg"
+              title="React 아이콘"
+              subTitle="적당한 수준은 됩니다."
+              description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
+            />
+            <SkillCard
+              src1="https://example.develofolio.com/logos/nextjs-icon.svg"
+              title="Next.js 아이콘"
+              subTitle="적당한 수준은 됩니다."
+              description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
+            />
           </div>
 
           <div className={s.bottomBox}>
-            <div className={s.skill}>
-              <img
-                src="https://avatars.githubusercontent.com/u/317889?s=280&v=4"
-                alt="Sass 아이콘"
-              />
-              <strong>Sass</strong>
-              <div className={s.smallText}>
-                <p>적당한 수준은 됩니다.</p>
-                <p>적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다.</p>
-              </div>
-            </div>
-            <div className={s.skill}>
-              <img
-                src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/31/tailwind.png"
-                alt="Tailwind CSS 아이콘"
-              />
-              <strong>Tailwind Css</strong>
-              <div className={s.smallText}>
-                <p>적당한 수준은 됩니다.</p>
-                <p>적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다.</p>
-              </div>
-            </div>
+            <SkillCard
+              src1="https://avatars.githubusercontent.com/u/317889?s=280&v=4"
+              title="Sass 아이콘"
+              subTitle="적당한 수준은 됩니다."
+              description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
+            />
+
+            <SkillCard
+              src1="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/31/tailwind.png"
+              title="Tailwind CSS 아이콘"
+              subTitle="적당한 수준은 됩니다."
+              description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
+            />
           </div>
         </div>
       </motion.div>

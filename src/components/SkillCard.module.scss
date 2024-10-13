@@ -1,0 +1,33 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 230px;
+
+  .box {
+    display: flex;
+    gap: 20px;
+
+    img {
+      margin-bottom: 15px;
+
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  strong {
+    margin: 0;
+
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .smallText {
+    p {
+      width: 200px;
+      text-align: center;
+    }
+  }
+}
