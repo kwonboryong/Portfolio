@@ -45,7 +45,7 @@ function ProjectsPage() {
               <div className="swiper-zoom-container">
                 <img
                   src="/assets/styleCastLogo.gif"
-                  alt="스타일 캐스트 프로젝트의 로고"
+                  alt="스타일 캐스트 프로젝트의 로고 gif"
                 />
               </div>
             </SwiperSlide>
@@ -53,7 +53,7 @@ function ProjectsPage() {
               <h3>티빙(Tving) 클론코딩</h3>
               <p>티빙 사이트 클론코딩 프로젝트</p>
               <div className="swiper-zoom-container">
-                <img src="/assets/profile.jpg" alt="Example" />
+                <img src="/assets/TvingMain.gif" alt="티빙 클론코딩 프로젝트 랜딩 gif" />
               </div>
             </SwiperSlide>
             <SwiperSlide className={s.SwiperSlide}>
