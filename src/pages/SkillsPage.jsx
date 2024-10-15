@@ -35,26 +35,26 @@ function SkillsPage() {
               src1="https://example.develofolio.com/logos/html-5.svg"
               src2="https://example.develofolio.com/logos/css-3.svg"
               title="HTML & CSS"
-              subTitle="적당한 수준은 됩니다."
+              subTitle="⭐⭐⭐⭐"
               description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
             />
             <SkillCard
               src1="https://example.develofolio.com/logos/javascript.svg"
               src2="https://example.develofolio.com/logos/typescript-icon.svg"
               title="JavaScript & TypeScript"
-              subTitle="적당한 수준은 됩니다."
+              subTitle="⭐⭐⭐"
               description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
             />
             <SkillCard
               src1="https://example.develofolio.com/logos/react.svg"
               title="React 아이콘"
-              subTitle="적당한 수준은 됩니다."
+              subTitle="⭐⭐⭐"
               description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
             />
             <SkillCard
               src1="https://example.develofolio.com/logos/nextjs-icon.svg"
               title="Next.js 아이콘"
-              subTitle="적당한 수준은 됩니다."
+              subTitle="⭐⭐"
               description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
             />
           </div>
@@ -63,14 +63,14 @@ function SkillsPage() {
             <SkillCard
               src1="https://avatars.githubusercontent.com/u/317889?s=280&v=4"
               title="Sass 아이콘"
-              subTitle="적당한 수준은 됩니다."
+              subTitle="⭐⭐⭐⭐"
               description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
             />
 
             <SkillCard
               src1="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/31/tailwind.png"
               title="Tailwind CSS 아이콘"
-              subTitle="적당한 수준은 됩니다."
+              subTitle="⭐⭐⭐⭐"
               description="적당한 수준은 됩니다. 어쩌구저쩌구 어쩌구 저쩌구 입니다."
             />
           </div>
