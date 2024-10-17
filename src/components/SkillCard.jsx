@@ -1,7 +1,15 @@
 import PropTypes from "prop-types";
 import s from "./SkillCard.module.scss";
 
-function SkillCard({ src1, src2, title, subTitle, description }) {
+function SkillCard({
+  src1,
+  src2,
+  title,
+  subTitle,
+  description1,
+  description2,
+  description3,
+}) {
   return (
     <>
       <div className={s.skill}>
@@ -11,8 +19,12 @@ function SkillCard({ src1, src2, title, subTitle, description }) {
         </div>
         <strong>{title}</strong>
         <div className={s.smallText}>
-          <p>{subTitle}</p>
-          <p>{description}</p>
+          <p className={s.subTitle}>{subTitle}</p>
+          <div className={s.description}>
+            <p>{description1}</p>
+            <p>{description2}</p>
+            <p>{description3}</p>
+          </div>
         </div>
       </div>
     </>
@@ -24,7 +36,9 @@ SkillCard.propTypes = {
   src2: PropTypes.string,
   title: PropTypes.string.isRequired,
   subTitle: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description1: PropTypes.string.isRequired,
+  description2: PropTypes.string,
+  description3: PropTypes.string,
 };
 
 export default SkillCard;
