@@ -5,6 +5,7 @@ import { Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { Link } from "react-router-dom";
 
 function ProjectsPage() {
   return (
@@ -35,40 +36,39 @@ function ProjectsPage() {
               lastSlideMessage: "마지막 프로젝트슬라이드입니다",
               paginationBulletMessage: "슬라이드 {{index}}로 이동",
             }}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-            onClick={() => console.log(`클릭한 페이지 {index}`)}
           >
             <SwiperSlide className={s.SwiperSlide}>
-              <h3>Style Cast</h3>
-              <p>날씨 기반 OOTD 추천 애플리케이션</p>
-              <div className="swiper-zoom-container">
-                <img
-                  src="/assets/styleCastLogo.gif"
-                  alt="스타일 캐스트 프로젝트의 로고 gif"
-                />
-              </div>
+              <Link to="/project/1">
+                <h3>Style Cast</h3>
+                <p>날씨 기반 OOTD 추천 애플리케이션</p>
+                <div className="swiper-zoom-container">
+                  <img
+                    src="/assets/styleCastLogo.gif"
+                    alt="스타일 캐스트 프로젝트의 로고 gif"
+                  />
+                </div>
+              </Link>
             </SwiperSlide>
             <SwiperSlide className={s.SwiperSlide}>
-              <h3>티빙(Tving) 클론코딩</h3>
-              <p>티빙 사이트 클론코딩 프로젝트</p>
-              <div className="swiper-zoom-container">
-                <img src="/assets/TvingMain.gif" alt="티빙 클론코딩 프로젝트 랜딩 gif" />
-              </div>
+              <Link to="/project/2">
+                <h3>티빙(Tving) 클론코딩</h3>
+                <p>티빙 사이트 클론코딩 프로젝트</p>
+                <div className="swiper-zoom-container">
+                  <img
+                    src="/assets/TvingMain.gif"
+                    alt="티빙 클론코딩 프로젝트 랜딩 gif"
+                  />
+                </div>
+              </Link>
             </SwiperSlide>
             <SwiperSlide className={s.SwiperSlide}>
-              <h3>Portfolio</h3>
-              <p>개인 포트폴리오 사이트 프로젝트</p>
-              <div className="swiper-zoom-container">
-                <img src="/assets/profile.jpg" alt="Example" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={s.SwiperSlide}>
-              <h3>Portfolio</h3>
-              <p>개인 포트폴리오 사이트 프로젝트</p>
-              <div className="swiper-zoom-container">
-                <img src="/assets/profile.jpg" alt="Example" />
-              </div>
+              <Link to="/project/3">
+                <h3>Portfolio</h3>
+                <p>개인 포트폴리오 사이트 프로젝트</p>
+                <div className="swiper-zoom-container">
+                  <img src="/assets/profile.jpg" alt="Example" />
+                </div>
+              </Link>
             </SwiperSlide>
           </Swiper>
         </motion.div>
