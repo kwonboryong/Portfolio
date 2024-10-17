@@ -5,38 +5,48 @@
   background-color: white; //
 
   .text {
-    margin-bottom: 80px;
     padding-top: 180px;
 
     font-size: 35px;
     text-align: center;
   }
-}
 
-.Swiper {
-  width: 93%;
-
-  .SwiperSlide {
+  .description {
+    font-size: 17px;
     text-align: center;
+  }
 
-    img {
-      width: 100%;
-      height: 300px;
-    }
+  .Swiper {
+    width: 93%;
+    margin-top: 60px;
 
-    h3 {
-      margin-top: 10px;
-      margin-bottom: 0;
-      font-size: 23px;
-    }
+    .SwiperSlide {
+      text-align: center;
 
-    p {
-      margin-top: 10px;
-      font-size: 17px;
-    }
+      img {
+        width: 100%;
+        height: 300px;
+      }
 
-    &:hover {
-      background: rgb(206, 204, 204); //
+      h3 {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 23px;
+      }
+
+      .link {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      p {
+        margin-top: 10px;
+        font-size: 17px;
+      }
+
+      &:hover {
+        background: rgb(206, 204, 204); //
+      }
     }
   }
 }

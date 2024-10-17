@@ -22,6 +22,7 @@ function ProjectsPage() {
           }}
         >
           <h2 className={s.text}>Projects</h2>
+          <p className={s.description}>✨프로젝트를 <strong>클릭</strong>하세요!✨</p>
           <Swiper
             className={s.Swiper}
             modules={[Pagination, Scrollbar, A11y]}
@@ -38,7 +39,7 @@ function ProjectsPage() {
             }}
           >
             <SwiperSlide className={s.SwiperSlide}>
-              <Link to="/project/1">
+              <Link to="/project/1" className={s.link}>
                 <h3>Style Cast</h3>
                 <p>날씨 기반 OOTD 추천 애플리케이션</p>
                 <div className="swiper-zoom-container">
@@ -50,7 +51,7 @@ function ProjectsPage() {
               </Link>
             </SwiperSlide>
             <SwiperSlide className={s.SwiperSlide}>
-              <Link to="/project/2">
+              <Link to="/project/2" className={s.link}>
                 <h3>티빙(Tving) 클론코딩</h3>
                 <p>티빙 사이트 클론코딩 프로젝트</p>
                 <div className="swiper-zoom-container">
@@ -62,7 +63,7 @@ function ProjectsPage() {
               </Link>
             </SwiperSlide>
             <SwiperSlide className={s.SwiperSlide}>
-              <Link to="/project/3">
+              <Link to="/project/3" className={s.link}>
                 <h3>Portfolio</h3>
                 <p>개인 포트폴리오 사이트 프로젝트</p>
                 <div className="swiper-zoom-container">
