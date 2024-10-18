@@ -11,7 +11,7 @@ function Introduce() {
       </div>
       <div className={s.description}>
         <p>
-          생년월일 &nbsp; &nbsp; 
+          생년월일 &nbsp; &nbsp;
           <strong>2000.01.31</strong>
         </p>
         <p>
@@ -20,7 +20,11 @@ function Introduce() {
         </p>
         <p>
           Notion &nbsp; &nbsp; &nbsp;
-          <a href="https://huchu.link/DVLqE6F">
+          <a
+            href="https://huchu.link/DVLqE6F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <strong>포트폴리오</strong>
           </a>
         </p>

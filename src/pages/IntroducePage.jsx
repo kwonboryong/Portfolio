@@ -42,6 +42,17 @@ function IntroducePage() {
           <p>✅ 팀원들과 함께 성장하고 발전하는 경험을 중요하게 생각합니다.</p>
           <p>✅ 어제보다 더 나은 사람이 되기 위해 끊임없이 노력합니다.</p>
         </div>
+
+        <div>
+          <p>교육 이력</p>
+          <p>멋쟁이 사자처럼</p>
+        </div>
+        <div>
+          <p>CS 스터디</p>
+          <p>TypeScript 스터디</p>
+          <p>JavaScript 스터디</p>
+          <p>알고리즘 스터디</p>
+        </div>
       </motion.div>
     </div>
   );

@@ -67,7 +67,7 @@ function ProjectsPage() {
                 <h3>Portfolio</h3>
                 <p>개인 포트폴리오 사이트 프로젝트</p>
                 <div className="swiper-zoom-container">
-                  <img src="/assets/profile.jpg" alt="Example" />
+                  <img src="/assets/portfolio.gif" alt="Example" />
                 </div>
               </Link>
             </SwiperSlide>
