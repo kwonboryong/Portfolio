@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Introduce from "@/components/Introduce";
 import s from "./Main.module.scss";
-import { IoIosArrowDown } from "react-icons/io"; // 아이콘 임포트
+import { IoIosArrowDown } from "react-icons/io";
 
 function Main() {
   const stars = [
@@ -19,7 +19,7 @@ function Main() {
         <div className={s.container}>
           <div className={s.profile}>
             {stars.map((star) => {
-              const randomAnimationDuration = Math.random() * (2 - 0.5) + 0.5; // 0.5초에서 2초 사이
+              const randomAnimationDuration = Math.random() * (2 - 0.5) + 0.5;
               return (
                 <img
                   key={star.id}

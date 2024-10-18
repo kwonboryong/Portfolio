@@ -1,5 +1,5 @@
 import s from "./Introduce.module.scss";
-import { MdOutlineAttachEmail } from "react-icons/md";
+// import { MdOutlineAttachEmail } from "react-icons/md";
 
 function Introduce() {
   return (
@@ -10,10 +10,20 @@ function Introduce() {
         <p className={s.subTitle}>Frontend Developer</p>
       </div>
       <div className={s.description}>
-        <p>생년월일 &nbsp; &nbsp; 2000.01.31</p>
-        <p> <MdOutlineAttachEmail /> Email &nbsp; &nbsp; &nbsp; &nbsp; kwonboryong@naver.com</p>
-        <p>소속 &nbsp; &nbsp; 수정</p>
-        <p>야야 &nbsp; &nbsp; 수정정</p>
+        <p>
+          생년월일 &nbsp; &nbsp; 
+          <strong>2000.01.31</strong>
+        </p>
+        <p>
+          Email &nbsp; &nbsp; &nbsp; &nbsp;
+          <strong>kwonboryong@naver.com</strong>
+        </p>
+        <p>
+          Notion &nbsp; &nbsp; &nbsp;
+          <a href="https://huchu.link/DVLqE6F">
+            <strong>포트폴리오</strong>
+          </a>
+        </p>
       </div>
     </div>
   );
