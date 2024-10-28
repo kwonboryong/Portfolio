@@ -20,18 +20,6 @@ function IntroducePage() {
             끊임없이 성장하는 개발자 <br /> <strong>권보령</strong>입니다.
           </p>
         </div>
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false }}
-        transition={{
-          ease: "easeInOut",
-          duration: 2,
-          y: { duration: 1 },
-          delay: 1.2,
-        }}
-      >
         <div className={s.contentBox}>
           <div className={s.description}>
             <p>
