@@ -1,12 +1,16 @@
 import s from "@/components/Active.module.scss";
 
-function Active({ title, description, img }) {
+function Active({ src, title, description, img }) {
   return (
-    <div className={s.container}>
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <img src={img} alt={title} />
-    </div>
+    <a href={src}>
+      <div className={s.container}>
+        <div className={s.textBox}>
+          <h3 className={s.title}>{title}</h3>
+          <p className={s.description}>{description}</p>
+        </div>
+        <img src={img} alt={title} />
+      </div>
+    </a>
   );
 }
 
